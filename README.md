@@ -44,11 +44,15 @@ dead_proxies.txt – Proxy yang gagal
 ## Output Contoh
 
 [LIVE] 123.123.123.123:8080 -> IP: 123.123.123.123
+
 [DEAD] 111.111.111.111:8000
 
 === Proxy Check Completed ===
+
 Total Proxies : 100
+
 Live Proxies  : 45
+
 Dead Proxies  : 55
 
 ## Tautan Terkait
