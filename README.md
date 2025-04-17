@@ -1,36 +1,20 @@
-<h1 align="center"> Welcome to My Cyber Lab </h1>
-<h3 align="center">Security Enthusiast | Ethical Hacker | Developer</h3>
+# PROXY-s - Proxy Network Scanner
 
----
+![Banner](https://img.shields.io/badge/version-1.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-### 🧠 Tentang Saya
+**PROXY-s** adalah tool sederhana berbasis Python untuk memeriksa status hidup atau matinya proxy dari sebuah daftar. Tool ini menggunakan `ThreadPoolExecutor` untuk mempercepat proses pengecekan secara paralel.
 
-Halo, saya **andirozaS-SKD**, seorang penggemar dunia cybersecurity dan pengembang yang suka mengeksplorasi keamanan sistem, reverse engineering, dan open-source intelligence (OSINT).
+## Fitur
+- Pengecekan proxy HTTP/HTTPS secara paralel
+- Output berwarna untuk membedakan proxy yang hidup dan mati
+- Logging ke file (`proxy_checker.log`)
+- Menyimpan hasil ke file: `live_proxies.txt` dan `dead_proxies.txt`
+- Banner ASCII yang keren!
 
-- 🕵️‍♂️ Fokus saat ini: **Ethical Hacking, Red Team Tools, dan Python Scripting**
-- 🔐 Skill utama: **Reconnaissance, Exploitation, Automation, CTF**
-- ⚙️ Tools favorit: **Burp Suite, Nmap, Metasploit, Wireshark, Python**
-- 📫 Kontak saya: **rzahhonly@gmail.com**
+## Instalasi
 
----
-
-### ⚔️ Arsenal Teknologi
-
-<p>
-  <img src="https://img.shields.io/badge/-Python-000000?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Bash-000000?style=flat&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=white" />
-</p>
-
----
-
-### 📊 Statistik GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=andirozaS-SKD&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=andirozaS-SKD&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-> "Amankan sistemmu sebelum seseorang melakukannya untukmu dengan cara yang salah."
+1. Clone repository:
+   ```bash
+   git clone https://github.com/andirozaS-SKD/proxy-scanner.git
+   cd proxy-scanner
