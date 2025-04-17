@@ -28,9 +28,9 @@ Clone repository:
 pkg update && pkg upgrade -y
 pkg install python
 pkg install git
+pip install requests colorama pyfiglet
 git clone https://github.com/andirozaS-SKD/proxy-scanner.git
 cd proxy-scanner
-pip install requests colorama pyfiglet
 python run.py
 ```
 
