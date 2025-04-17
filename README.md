@@ -32,6 +32,7 @@ git clone https://github.com/andirozaS-SKD/proxy-scanner.git
 cd proxy-scanner
 pip install -r requirements.txt
 python run.py
+```
 
 3. Hasil akan tersimpan ke:
 
@@ -53,4 +54,4 @@ Dead Proxies  : 55
 ## Tautan Terkait
 
 - [Video Tutorial di YouTube](https://www.youtube.com/watch?v=contohLink)
-- [Repository GitHub Saya](https://github.com/andirozaS-SKD/proxy-scanner)
+- [Repository GitHub Saya](https://github.com/andirozaS-SKD)
