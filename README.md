@@ -57,6 +57,6 @@ Dead Proxies  : 55
 
 ## Tautan Terkait
 
-- [Tutorial Video YouTube Saya](https://www.youtube.com/watch?v=contohLink)
-- [Facebook Video YouTube Saya](https://www.youtube.com/watch?v=contohLink)
+- [Tutorial Video YouTube Saya](https://youtube.com/shorts/t0Gn5csd4xs?si=U2PTu8uL3zUrhJuW)]
+- [Tutorial Video Facebook Saya](https://www.facebook.com/share/r/1BRepnMj8o/)
 - [Repository GitHub Saya](https://github.com/andirozaS-SKD/Proxy-scnner)
