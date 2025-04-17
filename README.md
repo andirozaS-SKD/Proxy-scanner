@@ -12,9 +12,45 @@
 - Menyimpan hasil ke file: `live_proxies.txt` dan `dead_proxies.txt`
 - Banner ASCII yang keren!
 
-## Instalasi
+## Penggunaan
 
-1. Clone repository:
+1. Siapkan file proxy.txt di direktori yang sama, berisi daftar proxy dengan format:
+
+192.168.1.1:8080
+123.456.789.0:3128
+...
+
+2. Jalankan script:
+
+python run.py
+Clone repository:
    ```bash
-   git clone https://github.com/andirozaS-SKD/proxy-scanner.git
-   cd proxy-scanner
+pkg update && pkg upgrade -y
+pkg install python
+pkg install git
+git clone https://github.com/andirozaS-SKD/proxy-scanner.git
+cd proxy-scanner
+pip install -r requirements.txt
+python run.py
+
+3. Hasil akan tersimpan ke:
+
+live_proxies.txt – Proxy yang berhasil terhubung
+
+dead_proxies.txt – Proxy yang gagal
+
+
+## Output Contoh
+
+[LIVE] 123.123.123.123:8080 -> IP: 123.123.123.123
+[DEAD] 111.111.111.111:8000
+
+=== Proxy Check Completed ===
+Total Proxies : 100
+Live Proxies  : 45
+Dead Proxies  : 55
+
+## Tautan Terkait
+
+- [Video Tutorial di YouTube](https://www.youtube.com/watch?v=contohLink)
+- [Repository GitHub Saya](https://github.com/andirozaS-SKD/proxy-scanner)
