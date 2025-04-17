@@ -30,7 +30,7 @@ pkg install python
 pkg install git
 git clone https://github.com/andirozaS-SKD/proxy-scanner.git
 cd proxy-scanner
-pip install -r requirements.txt
+pip install requests colorama pyfiglet
 python run.py
 ```
 
@@ -57,5 +57,6 @@ Dead Proxies  : 55
 
 ## Tautan Terkait
 
-- [Video Tutorial di YouTube](https://www.youtube.com/watch?v=contohLink)
-- [Repository GitHub Saya](https://github.com/andirozaS-SKD)
+- [Tutorial Video YouTube Saya](https://www.youtube.com/watch?v=contohLink)
+- [Facebook Video YouTube Saya](https://www.youtube.com/watch?v=contohLink)
+- [Repository GitHub Saya](https://github.com/andirozaS-SKD/Proxy-scnner)
